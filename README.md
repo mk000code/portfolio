@@ -70,3 +70,100 @@
   </footer>
 </body>
 </html>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2575fc;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .skills .skill-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills .skill-card h3 {
+    font-size: 1.6em;
+    color: #2575fc;
+  }
+  
+  footer {
+    background-color: #2575fc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
